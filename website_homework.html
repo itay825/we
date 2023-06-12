@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        body{
+            margin: 0;
+            height: 100vh;
+        }
+     
+        *{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+     
+        .tags{
+            height: 10%; 
+            width: 100%; 
+            align-items: center;
+            justify-content: center; 
+            color: #77b4c8;
+            font-size: 25px;;
+            display: flex;
+        }
+
+        .infoboxs{
+            border: 1px solid;
+            border-radius: 10px;
+            width: 25%;
+            font-size: 13px;
+            position: relative;
+            margin: 3%;
+            display: flow-root;
+            margin-bottom: 0;
+           
+        }
+        .floatImg{
+            float: left;
+            margin-left: 10px;
+            margin-bottom: 5px;
+            margin-right: 6px;
+            width: 100px;
+            height: 100px;
+            margin-top: 5px;
+        }
+
+        .textInBoxes{
+            padding: 4%;
+            font-size: 13px;
+        }
+        a{
+            color: #77b4c8;
+            text-decoration: none;
+            padding: 0;
+        }
+    </style>
+</head>
+
+<body>
+ 
+    <div style="height: 100%; width: 100%;display: flex;">
+    
+
+        <div style="height: 100%; width: 20%; display: block; flex-wrap: wrap;background-color: #10142c;  ">
+            <div class="tags"> <img src="images/logo13.png"></div>
+            <div class="tags" style="padding-top: 25px;"><a href="">Home</a></div>
+            <div class="tags"><a href="">About</a></div>
+            <div class="tags"><a href="">Projects</a></div>
+            <div class="tags"><a href="">Case study</a></div>
+            <div class="tags"><a href="">Blog</a></div>
+            <div class="tags"><a href="">Contact </a></div>
+        </div>
+
+        <div style="height: 100%; width: 100%; background-image: url(images/background.jpg);  background-repeat: no-repeat; background-size: cover;"> 
+            <div  style="height: 100%; width: 50%; position: absolute; right: 0; display: flex; ;align-items: center; ">
+                <div style=" position: relative; left: 40px">
+               <p  style="color: #77b4c8; font-size: 35px;">    On our way to conquer the world</p>
+               <p style="color: #77b4c8; font-size: 25px ;">  Mastering top notch technologies, while enjoing our <br>
+                  time learning front-end HTML and CSS.</p>
+              <p style=" text-align: right;  text-shadow: 0px 0 10px blue;"><span style=" background-color: #72e4cd; padding: 5px 15px 5px 15px; border-radius: 20px;"><a href="" style="color: black;">Technologies </a></span></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div style="height: 133%; width: 100%;display: flex; ">
+
+        <div style="height: 100%; width: 20%; "> </div>
+
+
+        <div style="height: 100%; width: 100%; background-color: #e8ecec; display: flex ; flex-wrap:wrap; border: 1px solid #bfbec0; flex-direction: column;  position: relative;"> 
+         
+            <div class="infoboxs" style="background-color: #e8bcc4; margin-left: 6%;">
+                <img class="floatImg" src="images/ai.png">
+                <p class="textInBoxes">Artificial Intelligence (AI) is a field of computer science that focuses on creating intelligent systems capable of performing tasks that would typically require human intelligence. It involves developing algorithms and models that enable machines to perceive, reason, learn, and make decisions.
+                <br> <br>AI encompasses various subfields, including machine learning, natural language processing, computer vision, robotics, and expert systems. These technologies have seen significant advancements in recent years, fueled by increased computational power, access to massive amounts of data, and improvements in algorithmic techniques.
+                </p>
+            </div>
+
+            <div class="infoboxs" style="background-color: #e8e4cc;margin-left: 6%; ">
+                <img class="floatImg" src="images/communication.png">
+                <p class="textInBoxes"> Computer communication refers to the exchange of information and data between computers or computing devices. It plays a crucial role in enabling connectivity and facilitating the flow of data across networks. Whether it's sharing files, sending emails, browsing the internet, or participating in online video conferences, computer communication allows individuals and organizations to communicate, collaborate, and access resources remotely.
+                <br><br> One of the fundamental components of computer communication is the concept of protocols. Protocols define a set of rules and standards that govern how data is transmitted, received, and interpreted by computers. They ensure that different devices can communicate effectively and understand each other's messages. Examples of widely used protocols include the Internet Protocol (IP), Transmission Control Protocol (TCP), and Hypertext Transfer Protocol (HTTP).
+                </p>
+            </div>
+
+            <div class="infoboxs" style="background-color: #c8e5cc;">
+                <img class="floatImg" src="images/asemmbly.png">
+               <p class="textInBoxes">Assembly language is a low-level programming language that provides a bridge between machine code and higher-level programming languages. It is often used in the development of system software, device drivers, and embedded systems, where direct control over the hardware is required. In assembly language, instructions are written using mnemonic codes that correspond to specific machine instructions.
+                <br><br> One of the main advantages of assembly language is its close correspondence to the underlying hardware architecture. Assembly instructions are directly mapped to machine instructions, allowing programmers to have fine-grained control over the execution of their programs. This level of control is particularly important in areas where performance and efficiency are crucial.
+               </p>
+            </div>
+           
+            <div class="infoboxs" style="background-color: #d0ecec;">
+                <img class="floatImg" src="images/fullstack.png" >
+                <p class="textInBoxes"> Full-stack programming refers to the ability to work on both the front-end and back-end aspects of a web application. A full-stack developer is proficient in multiple programming languages and frameworks, enabling them to handle the entire development process, from designing the user interface to managing the server-side logic and database interactions.
+                <br><br> One of the key advantages of full-stack programming is the versatility it offers. Full-stack developers have a comprehensive understanding of the entire application stack, allowing them to tackle various tasks independently. They can seamlessly switch between working on client-side technologies, such as HTML, CSS, and JavaScript, and server-side technologies like Node.js, Python, or Ruby on Rails. This versatility is particularly valuable in small to mid-sized companies or startups where resources may be limited, and a developer is expected to wear multiple hats.
+                </p>
+            </div>
+
+            <div class="infoboxs" style="background-color: #c0bcec; margin-right: 6%;">
+                <img class="floatImg" src="images/cyber.png">
+                <p class="textInBoxes"> Cybersecurity is a critical field that focuses on protecting computer systems, networks, and data from unauthorized access, theft, damage, or disruption. In today's interconnected world, where information is exchanged and stored digitally, the importance of cybersecurity cannot be overstated.
+                <br><br> The rapid advancement of technology has brought about numerous benefits, but it has also introduced new risks and vulnerabilities. Cybercriminals are constantly evolving their tactics, seeking to exploit weaknesses in computer systems and networks for their personal gain. This has led to a rise in various cyber threats, such as hacking, malware, phishing, and identity theft, among others.
+                </p>
+            </div>
+
+            <div class="infoboxs" style="background-color: #e4d0e8; margin-right: 6%;">
+                <img class="floatImg" src="images/java.png" style="height: 120px;">
+                <p class="textInBoxes"> Java is a versatile and widely used programming language that was developed by James Gosling and his team at Sun Microsystems (now owned by Oracle) in the mid-1990s. It was designed to be a platform-independent language, allowing developers to write code once and run it on any device or operating system that supports Java.
+                <br><br> One of the key features of Java is its "write once, run anywhere" capability. This is achieved through the Java Virtual Machine (JVM), which serves as an intermediary between the Java code and the underlying hardware. When Java code is compiled, it is converted into bytecode, which can then be executed by the JVM. This abstraction layer enables Java programs to be platform-independent, as long as a compatible JVM is available.
+                </p>
+            </div>
+
+ 
+            <div style="height: 6%; width: 100%; background-color: #10142c;  display: flex; bottom: 0; position: absolute;
+               justify-content: center;">
+            <p style="display: inline-flex;color: #77b4c8;  height: 5vh; width: 50vw; justify-content: space-evenly; font-weight: 525; font-size: larger;" >
+                <il>
+                    <img style="height: 3vh; width: 3vw;" src="images/facebook.svg">
+                    <a href="">Facebook</a>
+                </il>
+                <il>
+                    <img style="height: 3vh; width: 3vw;" src="images/instagram2.svg">
+                    <a href="">Instagram</a>
+                </il>
+                <il>
+                    <img style="height: 3vh; width: 3vw;" src="images/twitter.svg">
+                    <a href="">Twitter</a>
+                </il>
+            </p>
+            </div>
+            
+        </div>
+       
+    
+    </div>
+
+
+</body>
+
+</html>
